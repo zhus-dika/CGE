@@ -1,18 +1,6 @@
-| | |
-| --- | --- |
-| Org | [![PSL incubating](https://img.shields.io/badge/PSL-cataloged-a0a0a0.svg)](https://www.PSLmodels.org) [![OS License: CCO-1.0](https://img.shields.io/badge/OS%20License-CCO%201.0-yellow)](https://github.com/PSLmodels/OG-Core/blob/master/LICENSE) [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://pslmodels.github.io/OG-Core/) |
-| Package |  [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3108/) [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3118/)[![Python 3.11](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3128/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) |
-| Testing | ![example event parameter](https://github.com/PSLmodels/CGE/actions/workflows/build_and_test.yml/badge.svg?branch=master) ![example event parameter](https://github.com/PSLmodels/CGE/actions/workflows/deploy_docs.yml/badge.svg?branch=master) ![example event parameter](https://github.com/PSLmodels/CGE/actions/workflows/check_black.yml/badge.svg?branch=master) [![Codecov](https://codecov.io/gh/PSLmodels/CGE/branch/master/graph/badge.svg)](https://codecov.io/gh/PSLmodels/CGE) |
-
 # CGE
 
 This repository contains a computational general equilibrium (CGE) model for policy analysis. The model based off of the simplest CGE model presented [Hosoe, Gawana, and Hashimoto (2010)](https://www.amazon.com/Textbook-Computable-General-Equilibrium-Modeling/dp/0230248144) and the source code is written in Python.
-
-This work is very preliminary.  More details will be posted as development continues.
-
-## Disclaimer
-
-The model is currently under development. Please do not cite.
 
 ## Installing and Running CGE from this GitHub repository
 
@@ -24,10 +12,12 @@ The model is currently under development. Please do not cite.
 * Navigate to `./open_cge`
 * Run the model with an example calibration by typing `python execute.py`
 
-`$cd C:\Users\D.Zhussupova\Documents\zhus_dika\CGE_projects\CGE`
+## Working with existing environment
 
-`$conda activate cge_env`
+* `$cd C:\Users\D.Zhussupova\Documents\zhus_dika\CGE_projects\CGE`
 
-`$cd .\open_cge\`
+* `$conda activate cge_env`
 
-`$python .\execute.py`
+* `$cd .\open_cge\`
+
+* `$python .\execute.py`
